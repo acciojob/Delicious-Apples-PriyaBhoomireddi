@@ -1,1 +1,119 @@
-/* your code here */
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+body {
+	-webkit-font-smoothing: antialiased;
+	line-height:1.5;
+  font-family: -appple-system, BlinkMacsystemFont, "Segeo UI", Helvetica, Arial, sans-serif;
+word-wrap: break-word;
+}
+.product {
+  display: flex;
+  width: 100%;
+  }
+
+.product__photo {
+	border-style: none;
+	max-width:100%;
+	box-sizing: content-box;
+  flex: 2;
+  padding: 20px;
+	background-color: lightgreen;
+}
+
+.product__info {
+  flex: 3;
+  padding: 20px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.photo-main {
+  overflow: hidden;
+}
+
+.photo-main img {
+  width: 100%;
+  height: auto;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+}
+
+.photo-album {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;  
+}
+.photo-album {
+  width: 48%;
+  margin-bottom: 10px;
+	display:flex;
+	top:300px;
+	left:5px;
+	}
+
+.photo-album img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.title span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.price {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.variant {
+  margin-bottom: 20px;
+}
+
+.variant h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+	color: #ccc;
+}
+
+.apple-colors {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.variant ul li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+	left:30px;
+}
+
+.variant img {
+  width: 50px;
+  height: auto;
+}
+button{
+	background-color:red;
+	padding:10px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow: 10px;
+}
